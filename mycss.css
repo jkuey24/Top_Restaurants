@@ -1,0 +1,63 @@
+#header {
+  text-align: center;
+  text-display: flex;
+  font-size:40pt;
+  color: white;
+  font-family:fantasy;
+  height:205px;
+
+}
+
+body {
+  background-color: rgb(251, 249, 226)
+}
+
+#header {
+  background:url(https://www.revbo.com/wp-content/uploads/2015/05/SDskyline3.jpg) center no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.topRest {
+
+}
+
+p > img {
+    max-width: 45%;
+    float:left;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.rankings{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  clear:both;
+  padding-top: 30px;
+}
+
+.imageresize {
+height: 200px;
+width: 300px;
+border-radius: 5px;
+border: 1px solid white;
+margin-bottom: 30px;
+}
+
+
+h2 span{
+  color:white;
+  font-family: fantasy;
+  font-size:24px;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  position: absolute;
+}
+
+span {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 26pt;
+}
